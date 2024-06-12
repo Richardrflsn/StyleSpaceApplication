@@ -65,16 +65,16 @@
         android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="-200dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Welcome to"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/headerLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="-200dp" />
+        app:layout_constraintTop_toBottomOf="@id/headerLayout" />
 
     <!-- App Name Text -->
     <TextView
@@ -110,6 +110,7 @@
         android:id="@+id/signup_name"
         android:layout_width="0dp"
         android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/register_border"
         android:drawableLeft="@drawable/baseline_face_24"
         android:drawablePadding="8dp"
@@ -117,10 +118,10 @@
         android:hint="Full Name"
         android:maxLines="1"
         android:padding="8dp"
-        app:layout_constraintTop_toBottomOf="@id/description_text"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description_text"
         app:layout_constraintWidth_percent="0.9" />
 
     <!-- Email EditText -->
@@ -128,6 +129,7 @@
         android:id="@+id/signup_email"
         android:layout_width="0dp"
         android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/register_border"
         android:drawableLeft="@drawable/baseline_email_24"
         android:drawablePadding="8dp"
@@ -135,10 +137,10 @@
         android:hint="Email"
         android:maxLines="1"
         android:padding="8dp"
-        app:layout_constraintTop_toBottomOf="@id/signup_name"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signup_name"
         app:layout_constraintWidth_percent="0.9" />
 
     <!-- Password EditText -->
@@ -146,6 +148,7 @@
         android:id="@+id/signup_password"
         android:layout_width="0dp"
         android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/register_border"
         android:drawableLeft="@drawable/icons_lock"
         android:drawablePadding="8dp"
@@ -154,10 +157,10 @@
         android:inputType="textPassword"
         android:maxLines="1"
         android:padding="8dp"
-        app:layout_constraintTop_toBottomOf="@id/signup_email"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signup_email"
         app:layout_constraintWidth_percent="0.9" />
 
     <!-- Confirm Password EditText -->
@@ -165,6 +168,7 @@
         android:id="@+id/signup_confirm"
         android:layout_width="0dp"
         android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/register_border"
         android:drawableLeft="@drawable/icons_password"
         android:drawablePadding="8dp"
@@ -173,10 +177,10 @@
         android:inputType="textPassword"
         android:maxLines="1"
         android:padding="8dp"
-        app:layout_constraintTop_toBottomOf="@id/signup_password"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signup_password"
         app:layout_constraintWidth_percent="0.9" />
 
     <!-- Sign Up Button -->
