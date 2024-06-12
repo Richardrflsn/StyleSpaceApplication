@@ -30,9 +30,10 @@
             android:id="@+id/logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:fontFamily="@font/poppins_bold"
             android:text="StyleSpace"
-            android:layout_gravity="bottom"
+            android:textColor="@color/black"
             android:textSize="16sp" />
     </LinearLayout>
 
