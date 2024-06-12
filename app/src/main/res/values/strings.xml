@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StyleSpace</string>
+    <string name="fab_description">Floating action button</string>
+</resources>
