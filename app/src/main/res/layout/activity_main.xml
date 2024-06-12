@@ -26,6 +26,7 @@
         android:fontFamily="@font/poppins_bold"
         android:text="StyleSpace"
         android:textSize="18sp"
+        android:textColor="@color/dark_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -37,6 +38,7 @@
         android:fontFamily="@font/poppins_medium"
         android:text="Discover the Perfect Pieces for Every Room"
         android:textSize="16sp"
+        android:textColor="@color/dark_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/brand" />
