@@ -13,7 +13,7 @@ Welcome to StyleSpace, your ultimate destination for furnishing your space with 
 - Realtime Database Integration: Utilize Firebase Realtime Database to store user preferences, shopping cart items, and personalized recommendations, ensuring a seamless and personalized shopping experience.
 
 # Screenshots
-![Screenshot_20240612-204548_StyleSpace](https://github.com/Richardrflsn/StyleSpaceApplication/assets/105922097/fc228a96-67ab-4110-a239-03a67dc02b5b)
+<img width="162" alt="Screenshot 2024-06-30 at 22 57 09" src="https://github.com/Richardrflsn/StyleSpaceApplication/assets/105922097/fc228a96-67ab-4110-a239-03a67dc02b5b">
 
 # Installation
 
@@ -26,4 +26,4 @@ We welcome contributions from developers, designers, and furniture enthusiasts a
 
 # License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT [LICENSE](LICENSE).
